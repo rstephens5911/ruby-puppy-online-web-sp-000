@@ -21,7 +21,6 @@ class Dog
 
   def self.print_all
        @name_arr
-      end
   end
 
 end
