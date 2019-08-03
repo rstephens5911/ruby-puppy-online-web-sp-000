@@ -22,7 +22,7 @@ class Dog
     @@all.each do |name|
       dog_arr << name
     end
-    dog_arr
+    puts dog_arr
   end
 
 end
