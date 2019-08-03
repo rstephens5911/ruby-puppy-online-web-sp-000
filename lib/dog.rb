@@ -18,9 +18,11 @@ class Dog
   end
 
   def self.print_all
-    @@all.each do |element|
-      puts element
+    dog_arr = []
+    @@all.each do |name|
+      dog_arr << name
     end
+    dog_arr
   end
 
 end
