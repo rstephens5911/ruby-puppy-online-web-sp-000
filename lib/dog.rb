@@ -3,10 +3,12 @@ class Dog
   attr_accessor :name
   # class variable
   @@all = []
+  @name_arr = []
 
   def initialize(name)
     @name = name
     @@all << self
+    @name_arr << name
   end
 
   def self.all
@@ -18,8 +20,7 @@ class Dog
   end
 
   def self.print_all
-      @@all.each do |name|
-        puts name
+       @name_arr
       end
   end
 
