@@ -18,7 +18,8 @@ class Dog
   end
 
   def self.print_all
-       @name
+    @@all.each do |element|
+      puts element
   end
 
 end
